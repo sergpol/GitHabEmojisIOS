@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A91911A21431491004DE26D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A91911921431491004DE26D /* AppDelegate.swift */; };
+		7A91911C21431491004DE26D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A91911B21431491004DE26D /* ViewController.swift */; };
+		7A91911F21431491004DE26D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A91911D21431491004DE26D /* Main.storyboard */; };
+		7A91912121431495004DE26D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A91912021431495004DE26D /* Assets.xcassets */; };
+		7A91912421431495004DE26D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A91912221431495004DE26D /* LaunchScreen.storyboard */; };
+		7A91912F21431495004DE26D /* GitHub_API_emojisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A91912E21431495004DE26D /* GitHub_API_emojisTests.swift */; };
+		7A91913A21431495004DE26D /* GitHub_API_emojisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A91913921431495004DE26D /* GitHub_API_emojisUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A91912B21431495004DE26D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A91910E21431491004DE26D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A91911521431491004DE26D;
+			remoteInfo = "GitHub API emojis";
+		};
+		7A91913621431495004DE26D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A91910E21431491004DE26D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A91911521431491004DE26D;
+			remoteInfo = "GitHub API emojis";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A91911621431491004DE26D /* GitHub API emojis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub API emojis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A91911921431491004DE26D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A91911B21431491004DE26D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A91911E21431491004DE26D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A91912021431495004DE26D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A91912321431495004DE26D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A91912521431495004DE26D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A91912A21431495004DE26D /* GitHub API emojisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GitHub API emojisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A91912E21431495004DE26D /* GitHub_API_emojisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHub_API_emojisTests.swift; sourceTree = "<group>"; };
+		7A91913021431495004DE26D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A91913521431495004DE26D /* GitHub API emojisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GitHub API emojisUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A91913921431495004DE26D /* GitHub_API_emojisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHub_API_emojisUITests.swift; sourceTree = "<group>"; };
+		7A91913B21431495004DE26D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A91911321431491004DE26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A91912721431495004DE26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A91913221431495004DE26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A91910D21431491004DE26D = {
+			isa = PBXGroup;
+			children = (
+				7A91911821431491004DE26D /* GitHub API emojis */,
+				7A91912D21431495004DE26D /* GitHub API emojisTests */,
+				7A91913821431495004DE26D /* GitHub API emojisUITests */,
+				7A91911721431491004DE26D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A91911721431491004DE26D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A91911621431491004DE26D /* GitHub API emojis.app */,
+				7A91912A21431495004DE26D /* GitHub API emojisTests.xctest */,
+				7A91913521431495004DE26D /* GitHub API emojisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A91911821431491004DE26D /* GitHub API emojis */ = {
+			isa = PBXGroup;
+			children = (
+				7A91911921431491004DE26D /* AppDelegate.swift */,
+				7A91911B21431491004DE26D /* ViewController.swift */,
+				7A91911D21431491004DE26D /* Main.storyboard */,
+				7A91912021431495004DE26D /* Assets.xcassets */,
+				7A91912221431495004DE26D /* LaunchScreen.storyboard */,
+				7A91912521431495004DE26D /* Info.plist */,
+			);
+			path = "GitHub API emojis";
+			sourceTree = "<group>";
+		};
+		7A91912D21431495004DE26D /* GitHub API emojisTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A91912E21431495004DE26D /* GitHub_API_emojisTests.swift */,
+				7A91913021431495004DE26D /* Info.plist */,
+			);
+			path = "GitHub API emojisTests";
+			sourceTree = "<group>";
+		};
+		7A91913821431495004DE26D /* GitHub API emojisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A91913921431495004DE26D /* GitHub_API_emojisUITests.swift */,
+				7A91913B21431495004DE26D /* Info.plist */,
+			);
+			path = "GitHub API emojisUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A91911521431491004DE26D /* GitHub API emojis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A91913E21431495004DE26D /* Build configuration list for PBXNativeTarget "GitHub API emojis" */;
+			buildPhases = (
+				7A91911221431491004DE26D /* Sources */,
+				7A91911321431491004DE26D /* Frameworks */,
+				7A91911421431491004DE26D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GitHub API emojis";
+			productName = "GitHub API emojis";
+			productReference = 7A91911621431491004DE26D /* GitHub API emojis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A91912921431495004DE26D /* GitHub API emojisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A91914121431495004DE26D /* Build configuration list for PBXNativeTarget "GitHub API emojisTests" */;
+			buildPhases = (
+				7A91912621431495004DE26D /* Sources */,
+				7A91912721431495004DE26D /* Frameworks */,
+				7A91912821431495004DE26D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A91912C21431495004DE26D /* PBXTargetDependency */,
+			);
+			name = "GitHub API emojisTests";
+			productName = "GitHub API emojisTests";
+			productReference = 7A91912A21431495004DE26D /* GitHub API emojisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A91913421431495004DE26D /* GitHub API emojisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A91914421431495004DE26D /* Build configuration list for PBXNativeTarget "GitHub API emojisUITests" */;
+			buildPhases = (
+				7A91913121431495004DE26D /* Sources */,
+				7A91913221431495004DE26D /* Frameworks */,
+				7A91913321431495004DE26D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A91913721431495004DE26D /* PBXTargetDependency */,
+			);
+			name = "GitHub API emojisUITests";
+			productName = "GitHub API emojisUITests";
+			productReference = 7A91913521431495004DE26D /* GitHub API emojisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A91910E21431491004DE26D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = GitHub;
+				TargetAttributes = {
+					7A91911521431491004DE26D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					7A91912921431495004DE26D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 7A91911521431491004DE26D;
+					};
+					7A91913421431495004DE26D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 7A91911521431491004DE26D;
+					};
+				};
+			};
+			buildConfigurationList = 7A91911121431491004DE26D /* Build configuration list for PBXProject "GitHub API emojis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A91910D21431491004DE26D;
+			productRefGroup = 7A91911721431491004DE26D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A91911521431491004DE26D /* GitHub API emojis */,
+				7A91912921431495004DE26D /* GitHub API emojisTests */,
+				7A91913421431495004DE26D /* GitHub API emojisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A91911421431491004DE26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A91912421431495004DE26D /* LaunchScreen.storyboard in Resources */,
+				7A91912121431495004DE26D /* Assets.xcassets in Resources */,
+				7A91911F21431491004DE26D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A91912821431495004DE26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A91913321431495004DE26D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A91911221431491004DE26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A91911C21431491004DE26D /* ViewController.swift in Sources */,
+				7A91911A21431491004DE26D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A91912621431495004DE26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A91912F21431495004DE26D /* GitHub_API_emojisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A91913121431495004DE26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A91913A21431495004DE26D /* GitHub_API_emojisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A91912C21431495004DE26D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A91911521431491004DE26D /* GitHub API emojis */;
+			targetProxy = 7A91912B21431495004DE26D /* PBXContainerItemProxy */;
+		};
+		7A91913721431495004DE26D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A91911521431491004DE26D /* GitHub API emojis */;
+			targetProxy = 7A91913621431495004DE26D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A91911D21431491004DE26D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A91911E21431491004DE26D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A91912221431495004DE26D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A91912321431495004DE26D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A91913C21431495004DE26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A91913D21431495004DE26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A91913F21431495004DE26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GitHub API emojis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GitHub.GitHub-API-emojis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A91914021431495004DE26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GitHub API emojis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GitHub.GitHub-API-emojis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A91914221431495004DE26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GitHub API emojisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GitHub.GitHub-API-emojisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitHub API emojis.app/GitHub API emojis";
+			};
+			name = Debug;
+		};
+		7A91914321431495004DE26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GitHub API emojisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GitHub.GitHub-API-emojisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitHub API emojis.app/GitHub API emojis";
+			};
+			name = Release;
+		};
+		7A91914521431495004DE26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GitHub API emojisUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GitHub.GitHub-API-emojisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GitHub API emojis";
+			};
+			name = Debug;
+		};
+		7A91914621431495004DE26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GitHub API emojisUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GitHub.GitHub-API-emojisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GitHub API emojis";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A91911121431491004DE26D /* Build configuration list for PBXProject "GitHub API emojis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A91913C21431495004DE26D /* Debug */,
+				7A91913D21431495004DE26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A91913E21431495004DE26D /* Build configuration list for PBXNativeTarget "GitHub API emojis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A91913F21431495004DE26D /* Debug */,
+				7A91914021431495004DE26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A91914121431495004DE26D /* Build configuration list for PBXNativeTarget "GitHub API emojisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A91914221431495004DE26D /* Debug */,
+				7A91914321431495004DE26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A91914421431495004DE26D /* Build configuration list for PBXNativeTarget "GitHub API emojisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A91914521431495004DE26D /* Debug */,
+				7A91914621431495004DE26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A91910E21431491004DE26D /* Project object */;
+}
